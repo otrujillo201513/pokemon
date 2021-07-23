@@ -1,0 +1,6 @@
+framework module Pods_Pokemon_Oxxo_Pokemon_OxxoUITests {
+  umbrella header "Pods-Pokemon-Oxxo-Pokemon-OxxoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

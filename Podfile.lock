@@ -1,0 +1,26 @@
+PODS:
+  - PokemonAPI (6.0.2)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SwiftyProgressHud (1.0.3)
+
+DEPENDENCIES:
+  - PokemonAPI
+  - SDWebImage (~> 5.0)
+  - SwiftyProgressHud
+
+SPEC REPOS:
+  trunk:
+    - PokemonAPI
+    - SDWebImage
+    - SwiftyProgressHud
+
+SPEC CHECKSUMS:
+  PokemonAPI: bff9656c1825288e7f028b415ce6276122ad4c6a
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SwiftyProgressHud: 6ea32c04775b3057ed5c4253b9a4f7f07994e9a9
+
+PODFILE CHECKSUM: 7d4df7ee9a0874f4d61a387c58a77ebe07969cc8
+
+COCOAPODS: 1.10.1

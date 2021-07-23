@@ -1,0 +1,6 @@
+framework module SwiftyProgressHud {
+  umbrella header "SwiftyProgressHud-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Pokemon-Oxxo-Pokemon-OxxoUITests/Pods-Pokemon-Oxxo-Pokemon-OxxoUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PokemonAPI/PokemonAPI.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyProgressHud/SwiftyProgressHud.framework

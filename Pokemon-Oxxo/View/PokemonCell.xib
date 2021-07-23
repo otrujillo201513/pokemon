@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PokemonCell" rowHeight="150" id="KGk-i7-Jjw" customClass="PokemonCell" customModule="Pokemon_Oxxo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="345" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="345" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QwR-jo-Xdx">
+                        <rect key="frame" x="20" y="11" width="305" height="128"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n4b-3Q-zfE">
+                        <rect key="frame" x="43" y="66" width="37.5" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tpu-gx-Vpv">
+                        <rect key="frame" x="234" y="-23" width="91" height="196"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="91" id="XQ3-i1-yOZ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="tpu-gx-Vpv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-34" id="3aw-sS-vEv"/>
+                    <constraint firstItem="tpu-gx-Vpv" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="KBx-6e-zxh"/>
+                    <constraint firstItem="QwR-jo-Xdx" firstAttribute="leading" secondItem="n4b-3Q-zfE" secondAttribute="leading" constant="-23" id="Pu9-Ub-czr"/>
+                    <constraint firstItem="QwR-jo-Xdx" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="Wk8-qt-b7D"/>
+                    <constraint firstItem="QwR-jo-Xdx" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="ZNf-PC-4uG"/>
+                    <constraint firstItem="QwR-jo-Xdx" firstAttribute="centerY" secondItem="n4b-3Q-zfE" secondAttribute="centerY" id="ZSm-h2-j81"/>
+                    <constraint firstItem="tpu-gx-Vpv" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="oqP-VW-Fhw"/>
+                    <constraint firstItem="QwR-jo-Xdx" firstAttribute="trailing" secondItem="tpu-gx-Vpv" secondAttribute="trailing" id="trI-bV-uHR"/>
+                    <constraint firstItem="QwR-jo-Xdx" firstAttribute="centerY" secondItem="tpu-gx-Vpv" secondAttribute="centerY" id="w7Z-F3-nml"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imagePokemon" destination="tpu-gx-Vpv" id="IXr-KF-VpJ"/>
+                <outlet property="lbNamePokemon" destination="n4b-3Q-zfE" id="y3M-tq-Utb"/>
+                <outlet property="viewBackground" destination="QwR-jo-Xdx" id="ikO-tm-aZL"/>
+            </connections>
+            <point key="canvasLocation" x="113.768115942029" y="136.60714285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
